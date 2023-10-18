@@ -4,7 +4,6 @@
 
 So excited to have worked on this! I used grid without any much hassle.
 
-Live site: 
-Code pen:
+Live site: https://testimonials-grid-section-taupe-six.vercel.app/
 
 Author: Oluwatobi Adetoun
