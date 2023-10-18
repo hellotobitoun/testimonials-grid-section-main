@@ -71,6 +71,10 @@ body {
     padding: 20px 20px;
     border-radius: 5px;
 }
+
+/* Created a Card-2 to accomodate the styling for the cards with white background. 
+Custom properties in root still control the styling */
+
 .card-2 {
     padding: 20px 20px;
     border-radius: 5px;
@@ -267,7 +271,6 @@ body {
   font-weight: var(--font-weight-small)
 }
 
-
 .card-2 h3 {
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-small);
@@ -333,10 +336,3 @@ body {
 .Daniel {
     z-index: -2;
 }
-
-
-.quote: {
-    diplay: grid;
-    overflow: hidden;
-}
-
