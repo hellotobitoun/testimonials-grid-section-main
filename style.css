@@ -121,7 +121,8 @@ Custom properties in root still control the styling */
     .grid-container {
         display: grid;
         gap: 20px;
-        max-width: 250px;
+        max-width: 300px;
+        transform: scale(1.1)
     }
     .Jaenette {
         background-color: var(--primary-color-4);
