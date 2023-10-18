@@ -192,6 +192,10 @@ Custom properties in root still control the styling */
 
 
 @media (min-width: 800px) {
+
+    body {
+        padding-block: 10rem;
+    }
     .grid-container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
