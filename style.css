@@ -1,0 +1,208 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+:root {
+--primary-color-1: 
+hsl(263, 55%, 52%);
+--primary-color-2: 
+#49556B;
+--primary-color-3: 
+hsl(219, 29%, 14%);
+--primary-color-4: 
+white;
+
+--neutral-color-1: 
+hsla(0, 1%, 69%, 0.864);
+--neutral-color-2: 
+hsla(0, 0%, 65%, 0.857);
+--neutral-color-3: 
+rgb(62, 62, 62);
+--neutral-color-4: 
+rgb(82, 97, 129);
+
+
+--font-size-large: 
+16px;
+--font-size-medium: 
+15px;
+--font-size-small: 
+11px;
+--font-size-tiny: 
+9px;
+
+--spacing-large: 
+20px;
+--spacing-medium: 
+15px;
+--spacing-small: 
+10px;
+--spacing-tiny: 
+5px;
+
+--font-weight-large: 
+500;
+--font-weight-medium: 
+400;
+--font-weight-small: 
+300;
+
+/* h3 for student name*/
+/* h4 for verified status*/
+/* h5 for textimonial summary*/
+/* p for testimony*/
+}
+
+body {
+    background-color: #ECF2F8;
+    padding-block: 2rem;
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.span-2 {
+    grid-column: span 2;
+}
+
+.card-1 {
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+.card-2 {
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (min-width: 375px) {
+
+}
+
+
+
+.card-1:nth-child(1) {
+    background-color: var(--primary-color-1);
+}
+.card-1:nth-child(2) {
+    background-color: var(--primary-color-2);
+}
+.card-1:nth-child(4) {
+    background-color: var(--primary-color-3);
+}
+
+
+.card-1 h3 {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-small);
+    color: white;
+}
+
+.card-1 h4 {
+    color: var(--neutral-color-1);
+    font-size: var(--font-size-tiny);
+    font-weight: var(--font-weight-small);    
+}
+
+.card-1 h5 {
+    color: var(--primary-color-4);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-large);  
+    margin-top: var(--spacing-small);
+    margin-bottom: var(--spacing-small)
+}
+
+.card-1 p {
+  color: var(--neutral-color-2);
+  font-size: var(--font-size-tiny);
+  font-weight: var(--font-weight-small)
+}
+
+
+.card-2 h3 {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-small);
+    color: var(--neutral-color-3);
+}
+
+.card-2 h4 {
+    color: var(--neutral-color-3);
+    font-size: var(--font-size-tiny);
+    font-weight: var(--font-weight-small);    
+}
+
+.card-2 h5 {
+    color: var(--neutral-color-4);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-large);  
+    margin-top: var(--spacing-small);
+    margin-bottom: var(--spacing-small)
+}
+
+.card-2 p {
+    color: var(--neutral-color-3);
+  font-size: var(--font-size-tiny);
+  font-weight: var(--font-weight-small)
+}
+
+
+.profile {
+    display: flex;
+    gap: var(--spacing-medium);
+    align-items: center;
+}
+
+.Daniel {
+    
+}
+
+.Jonathan {
+
+}
+
+.Jaenette {
+background-color: var(--primary-color-4)
+}
+
+.Patrick {
+
+}
+
+.Kira {
+background-color: var(--primary-color-4)
+}
+
+
+img {
+    border-radius: 50%;
+    width: 25px;
+    border: solid;
+    border-width: 2px;
+}
+
+.Daniel img {
+    border-color: var(--primary-color-1);
+    --primary-color-1: hsl(263, 73%, 60%);
+}
+
+.Jonathan img,
+.Jaenette img,
+.Kira img {
+border-color: var(--primary-color-4);
+}
+
+.Patrick img {
+    border-color: var(--primary-color-1);
+}
+
